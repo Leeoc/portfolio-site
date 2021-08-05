@@ -10,15 +10,15 @@ const Hero = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 items-center align-middle h-screen place-content-center dark:bg-gray-900 border-b-2 border-gray-100 dark:border-gray-800">
       <div className="sm:mx-auto lg:max-w-2xl max-w-full align-middle h-full place-content-center">
         <div className="flex flex-col mb-16 sm:text-center sm:mb-0 h-full place-content-center">
-          <a href="/" className="mb-6 sm:mx-auto">
+          <span className="mb-6 sm:mx-auto">
             <div className="flex items-center justify-center w-40 h-40 rounded-full bg-indigo-50">
               <img
                 className="h-50 w-50 rounded-full ring-2  filter brightness-100 dark:brightness-0"
                 src={profilePicture}
-                alt=""
+                alt="Profile"
               />
             </div>
-          </a>
+          </span>
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto dark:text-gray-200">
               <span className="relative inline-block dark:text-gray-200">
