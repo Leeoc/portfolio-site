@@ -11,7 +11,7 @@ const BlogCard = (props) => {
         <img
           src={props.data.imgSrc}
           className="object-cover w-full h-64"
-          alt=""
+          alt="Blog post"
         />
       }
       <div className="p-5">
@@ -19,7 +19,7 @@ const BlogCard = (props) => {
           <span className="text-gray-600 dark:text-gray-50">{props.data.date}</span>
         </p>
         <a
-          href="/"
+          href={props.data.sourceUrl}
           aria-label="Category"
           title="Visit the East"
           className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 dark:text-gray-50"
@@ -33,7 +33,7 @@ const BlogCard = (props) => {
           href={props.data.sourceUrl}
           className="inline-flex items-center font-semibold transition-colors duration-200 text-blue-600 hover:text-indigo-400"
         >
-          Read more
+          Read
         </a>
       </div>
     </div>
