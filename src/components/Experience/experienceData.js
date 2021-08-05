@@ -9,13 +9,13 @@ const experienceData = [
     id: 2,
     title: "Exploristics",
     position: "Junior Software Engineer",
-    text: "Summer Internship, working primarily with AWS CDK in Python. Creating a custom CloudWatch dashboard for tracking costs, usuage and errors on the platform."
+    text: "Summer Internship, working primarily with AWS CDK in Python. Creating a custom CloudWatch dashboard for tracking costs, usage and errors on the platform."
   },
   {
     id: 3,
     title: "Kainos",
     position: "A.I Camp",
-    text: "Two week course on the fundamentals of Artifical Inteligence. Followed by and 11 hour Hackathon where we created an NLP app to find bias in News reporting. Code on my github."
+    text: "Two week course on the fundamentals of Artificial Intelligence. Followed by and 11 hour Hackathon where we created an NLP app to find bias in News reporting. Code on my github."
   },
   {
     id: 4,
@@ -25,7 +25,7 @@ const experienceData = [
   },
   {
     id: 5,
-    title: "Kanios",
+    title: "Kainos",
     position: "Code Camp",
     text: "Two week long coding bootcamp, learning the basics of Android app development."
   },
@@ -33,7 +33,7 @@ const experienceData = [
     id: 6,
     title: "Liberty IT",
     position: "Work Experience",
-    text: "A-Level work expereience week, working on basic web development and learning about Alexa skills."
+    text: "A-Level work experience week, working on basic web development and learning about Alexa skills."
   }
 
 ]

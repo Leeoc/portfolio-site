@@ -1,6 +1,6 @@
 import React from "react"
 import TechnologiesItem from "../TechnologiesItem/TechnologiesItem"
-import technologiesData from "../TechnologiesItem/technologiesData";
+import technologiesData from "./technologiesData";
 
 const Technologies = () => {
   const techItems = technologiesData.map((data, index) => {
