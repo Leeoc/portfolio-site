@@ -71,12 +71,15 @@ const Hero = () => {
               </label>
 
             </div>
-            <button
-              href="/"
-              className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none hover:-translate-y-1 hover:scale-110"
-            >
-              Contact me!
-            </button>
+            <a href="mailto:info@leeoconnell.co.uk?subject=Getting in touch about leeoconnell.co.uk">
+              <button
+
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none hover:-translate-y-1 hover:scale-110"
+              >
+                Contact me!
+              </button>
+            </a>
+
           </div>
         </div>
       </div>
