@@ -12,6 +12,7 @@ const BlogCard = (props) => {
           src={props.data.imgSrc}
           className="object-cover w-full h-64"
           alt="Blog post"
+          height="16rem"
         />
       }
       <div className="p-5">

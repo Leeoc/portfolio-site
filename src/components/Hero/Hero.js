@@ -16,6 +16,8 @@ const Hero = () => {
                 className="h-50 w-50 rounded-full ring-2  filter brightness-100 dark:brightness-0"
                 src={profilePicture}
                 alt="Profile"
+                width="160px"
+                height="160px"
               />
             </div>
           </span>
