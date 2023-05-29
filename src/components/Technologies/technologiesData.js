@@ -39,6 +39,16 @@ const technologiesData = [
     title: "MicroServices",
     text: "Intermediate knowledge of Micro service architecture's."
   },
+  {
+    id: 9,
+    title: "Go",
+    text: "beginner knowledge of Go, primarily using Go to create Terraform providers."
+  },
+  {
+    id: 10,
+    title: "Terraform",
+    text: "beginner knowledge of Terraform."
+  },
 ]
 
 export default technologiesData
