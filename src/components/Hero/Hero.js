@@ -49,11 +49,12 @@ const Hero = () => {
                 </svg>
                 <span className="inline-block pl-2 transform hover:-translate-y-1 hover:scale-105 relative transition duration-500 ease-in-out text-blue-600 hover:text-indigo-400">Lee O'Connell</span>
               </span>{' '}
-              , Software Engineering Student
+              , Associate Software Engineer
             </h2>
             <p className="text-base text-gray-700 md:text-lg dark:text-gray-200">
-              3rd year software engineering student currently studying at Ulster University Jordanstown.
-              I have a real passion for everything technology and love what I do.
+              I am a young and enthusiastic associate software engineer currently working at cloudsmith.
+              I learned to code with a raspberry PI and it's been an uphill battle from there.
+              I love the technology sector, I always enjoy  learning new technologies and solving hard problems.
             </p>
           </div>
           <div>
